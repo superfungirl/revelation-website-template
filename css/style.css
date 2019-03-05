@@ -1,0 +1,302 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style-type: none;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.wrapper{
+    width: 1200px;
+    height: inherit;
+    overflow: auto;
+    margin: 0 auto;
+}
+ 
+.top-bar{
+    background: #663366;
+    width: auto;
+    height: 20px;
+    padding: 10px 30px;
+}
+
+.top-bar ul, .main-nav ul{
+    float: right;
+    width: auto;
+    list-style-type: none;
+}
+
+.top-bar ul li, .main-nav ul li{
+    display: inline;
+}
+
+.top-bar ul li a, .main-nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: center; 
+}
+
+
+.header{
+    width: auto;
+    height: 50px;
+    padding: 25px 30px;
+}
+
+.logo{
+    float: left;
+    width: auto;
+}
+
+.main-nav{
+    float: right;
+    width: auto;
+    position: relative;
+    top: 20px;
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.main-nav ul li a{
+    color: #333;
+    text-transform: uppercase;
+    text-decoration: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.main-nav ul li a:hover{
+    border-bottom: 1px solid #999;
+
+}
+p.logo{
+    color: #000;
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+p.logo-description{
+    color: #999;
+}
+
+
+/* .main-nav ul li a:hover{
+    color: red; underline should be bigger.
+} */
+/*Slider starts*/
+.slider{
+    width: auto;
+    height: inherit;
+    overflow: auto;
+    padding: 30px 20px;
+    background-color: #e1e1e1;
+}
+
+.slider img{
+    float: left;
+}
+
+.slider-text{
+    float: right;
+    width: 572px;
+    margin-top: 120px;
+}
+
+.slider-text h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.slider-text p{
+    color: #999;
+    margin-bottom: 20px;
+}
+
+.slider-text a{
+    text-decoration: none;
+    background-color: #663366;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.services{
+    width: auto;
+    height: inherit;
+    overflow: auto;
+    padding: 20px 50px;
+}
+
+.box{
+    float: left;
+    width: 260px;
+    height: inherit;
+    overflow: auto;
+    margin-left: 20px;
+}
+.box img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.box h2{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #999;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.box p{
+    color: #999;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+#right-no-margin{
+    float: right;
+    margin: 0;
+}
+
+#submit{
+    background: #999999;
+}
+
+#read-more{
+    color: #663366;
+}
+
+
+.shout{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*boxes inner section*/
+
+.box-a{
+    float: left;
+    width:260px;
+    height: inherit;
+    overflow: auto;
+    margin-left: 20px;
+}
+
+.box-a img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.box-a p{
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 20px;
+    color: #999999;
+}
+
+.read-more a{
+    margin-bottom: 500px;
+}
+
+#footer{
+    background: #333;
+    width: auto;
+    padding: 20px;
+    color: #cc3366;
+    height: 250px;
+
+}
+
+.footer-link{
+    width: 200px;
+    height: auto;
+    overflow: auto;
+    float: left;
+    margin-left: 100px;
+}
+
+.footer-link h4{
+    color: #fff;
+    margin-bottom: 20px;
+}
+#footer-form input#name, input#email{
+    padding: 5px 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+input#submit{
+    padding: 5px 20px;
+    text-transform: uppercase;
+    background: #663366;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+.topbar-contact li{
+    color: #999;
+}
+
+.topbar-contact-color{
+    color: #663366;
+}
+
+.link-block li{
+    color: #663366;
+    font-weight:bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.latest-from-blog h5{
+    color: #663366;
+}
+
+.latest-from-blog p{
+    color: #999;
+}
+
+.socialmedia-icons i{
+    font-size: 20px;
+    margin-right: 15px;
+    text-align: center;
+    color: #999;
+    background: #333;
+}
+
+#copyright{
+    background: #333;
+    width: auto;
+    height: 80px;
+
+}
+
+.copyright{
+    color: #999;
+    margin-left: 120px;
+}
+
+.border-bottom{
+    border-bottom: double;
+    border-color: #999;
+    margin-bottom:20px;
+}
